@@ -27,7 +27,7 @@
     createAd();
 
     setTimeout(function () {
-      callback(!!document.getElementById('adcontent'));
+      callback(!document.getElementById('adcontent'));
     }, delay || 1000);
 
   };
