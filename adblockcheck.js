@@ -1,4 +1,4 @@
-/*! adblockdetect.js v1.0.0 | (c) 2014 @jilles | https://github.com/jillesme/AdBlockCheck */
+/*! adblockdetect.js v1.0.1 | (c) 2014 @jilles | https://github.com/jillesme/AdBlockCheck */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define(factory);
@@ -17,17 +17,18 @@
     var ad = document.createElement('div');
 
     ad.id = 'adcontent';
-    ad.style.display = 'none';
 
     document.body.appendChild(ad);
 
+    return ad;
   };
 
   adblock.check = function (callback, delay) {
-    createAd();
+    var ad = createAd();
 
     setTimeout(function () {
-      callback(!document.getElementById('adcontent'));
+      var active = (ad.offsetLeft === 0 && ad.offsetTop === 0);
+      callback(active);
     }, delay || 1000);
 
   };
