@@ -2,7 +2,7 @@
 
 Do you have a site with ads that you really need people to see? **AdBlockDetect** to the rescue! This is a 1KB module for detecting AdBlock with async callbacks for notifying visitors.
 
-It's up to you if you provide a simple hint that you'd like your visitors to see ads or prompt them with a big alert and redirect them to another site if they don't.
+It's up to you if you provide a simple hint that you'd like your visitors to see ads or prompt them with a big alert.
 
 ## Usage
 
@@ -10,7 +10,7 @@ I recommend adding the script tags before the _\</body>_ tag [(source)](https://
 
 _adblock.check()_ accepts 2 parameters. A callback function and an optional delay. 
 
-```javascript
+```html
 <script src="adblockcheck.js"></script>
 <script>
 adblock.check(function (active) {
