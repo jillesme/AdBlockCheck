@@ -20,3 +20,7 @@ adblock.check(function (active) {
 }, 500);
 </script>
 ```
+
+## Demo
+
+You can check out a demo on jsfiddle.net [here](http://jsfiddle.net/jillesme/AF3kL/)!
