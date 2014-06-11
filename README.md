@@ -23,4 +23,4 @@ adblock.check(function (active) {
 
 ## Demo
 
-You can check out a demo on jsfiddle.net [here](http://jsfiddle.net/jillesme/AF3kL/)!
+You can check out a demo on jsfiddle.net [here](http://jsfiddle.net/UeFx8)!
