@@ -11,7 +11,7 @@ I recommend adding the script tags before the _\</body>_ tag [(source)](https://
 _adblock.check()_ accepts 2 parameters. A callback function and an optional delay. 
 
 ```html
-<script src="adblockcheck.js"></script>
+<script src="adblockcheck.js" defer></script>
 <script>
 adblock.check(function (active) {
     if (active) {
