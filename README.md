@@ -15,7 +15,7 @@ _adblock.check()_ accepts 2 parameters. A callback function and an optional dela
 <script>
 adblock.check(function (active) {
     if (active) {
-        // AdBlock is enabled
+        // AdBlock is currently enabled
     }
 }, 500);
 </script>
