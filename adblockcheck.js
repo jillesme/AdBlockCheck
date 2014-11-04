@@ -1,13 +1,5 @@
-/*! AdBlockCheck.js v1.0.1 | (c) 2014 @jilles | https://github.com/jillesme/AdBlockCheck */
-(function (root, factory) {
-  if (typeof define === 'function' && define.amd) {
-    define(factory);
-  } else if (typeof exports === 'object') {
-    module.exports = factory;
-  } else {
-    root.adblock = factory();
-  }
-})(this, function () {
+/*! AdBlockCheck.js v1.0.2 | (c) 2014 @jilles | https://github.com/jillesme/AdBlockCheck */
+var adblock = (function () {
 
   'use strict';
 
@@ -34,4 +26,4 @@
   };
 
   return adblock;
-});
+})();
