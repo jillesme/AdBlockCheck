@@ -1,4 +1,4 @@
-# AdBlockDetect !
+# AdBlockDetect
 
 Do you have a site with ads that want people to see? **AdBlockDetect** to the rescue! This is a 1KB module for detecting AdBlock with async callbacks for notifying visitors.
 
