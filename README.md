@@ -1,6 +1,6 @@
-# AdBlockDetect v1.0
+# AdBlockCheck v1.0
 
-Do you have a site with ads that want people to see? **AdBlockDetect** to the rescue! This is a 1KB module for detecting AdBlock with async callbacks for notifying visitors.
+Do you have a site with ads that want people to see? **AdBlockCheck** to the rescue! This is a 1KB module for detecting AdBlock with async callbacks for notifying visitors.
 
 It's up to you if you provide a simple hint that you'd like your visitors to see ads or prompt them with an alert.
 
